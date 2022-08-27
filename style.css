@@ -37,7 +37,7 @@ body {
   width: 100%;
   object-fit: cover;
   border-radius: 20px;
-  box-shadow: 0 15px 30px 5px rgba(0,0,0, 0.3);
+  box-shadow: 0 15px 30px 5px rgba (0,0,0, 0.3);
 }
 
 h2 {
@@ -91,9 +91,13 @@ h3 {
   font-size: 30px;
   color: rgb(129, 129, 129);
   margin-right: 30px;
-
+  cursor: pointer;
+  user-select: none;
 }
 
+.fas:hover {
+  filter: brightness(80%);
+}
 
 
 .main-button {
